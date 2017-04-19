@@ -1,6 +1,3 @@
-Build
------
-
 **Build-time dependencies**
 
 * CMake
