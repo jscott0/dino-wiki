@@ -1,14 +1,7 @@
-| OS           | Package|
-| ------------ | ------ |
-| Arch Linux   | [`dino-git`](https://aur.archlinux.org/packages/dino-git/) (AUR)     |
-| Fedora ≥ 25  | [`dino`](https://copr.fedorainfracloud.org/coprs/larma/dino/) (copr) |
+| OS                  | Package|
+| ------------------- | ------ |
+| Arch Linux          | [`dino-git`](https://aur.archlinux.org/packages/dino-git/) (AUR)     |
+| Fedora ≥ 25         | [`dino`](https://copr.fedorainfracloud.org/coprs/larma/dino/) (copr) |
+| NixOS > 17.03       | [`dino`](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/instant-messengers/dino/default.nix) |
+| openSUSE Tumbleweed | [`dino`](https://build.opensuse.org/package/show/home:jubalh/dino) (OBS) |
 
-**Dependencies**
-
-* GLib (≥ 2.38)
-* GTK (≥ 3.22)
-* GPGME (For the OpenPGP plugin)
-* libgee-0.8 (≥ 0.10)
-* libgcrypt (For the OMEMO plugin)
-* libnotify
-* SQLite3
