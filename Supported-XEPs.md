@@ -15,6 +15,7 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | 0115 | Entity Capabilities          | |
 | 0163 | Personal Eventing Protocol   | |
 | 0184 | Message Delivery Receipts    | |
+| 0198 | Stream Management            | |
 | 0199 | Ping                         | |
 | 0203 | Delayed Delivery             | |
 | 0280 | Message Carbons              | |
