@@ -19,6 +19,8 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | 0199 | Ping                         | |
 | 0203 | Delayed Delivery             | |
 | 0280 | Message Carbons              | |
+| 0313 | Message Archive Management   | |
 | 0333 | Chat Markers                 | |
 | 0363 | HTTP File Upload             | Both :0 and legacy namespace |
 | 0368 | SRV records for XMPP over TLS| |
+| 0384 | OMEMO Encryption             | Partial |
