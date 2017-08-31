@@ -1,9 +1,9 @@
 | OS                  | Package|
 | ------------------- | ------ |
-| Arch Linux          | [`dino-git`](https://aur.archlinux.org/packages/dino-git/) (AUR)     |
-| Debian ≥ 9          | [`dino`](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino) (OBS) |
-| Fedora ≥ 25         | [`dino`](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino) (OBS) |
-| Gentoo Linux        | [`dino`](https://github.com/csmk/frabjous/tree/master/net-im/dino) (Overlay) |
-| NixOS > 17.03       | [`dino`](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/instant-messengers/dino/default.nix) |
-| openSUSE Tumbleweed | [`dino`](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino) (OBS) |
-| Ubuntu ≥ 17.04      | [`dino`](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino) (OBS) |
+| Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/)     |
+| Debian ≥ 9          | [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)     |
+| Fedora ≥ 25         | [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)     |
+| Gentoo Linux        | [Overlay](https://github.com/csmk/frabjous/tree/master/net-im/dino) |
+| NixOS > 17.03       | [nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/instant-messengers/dino/default.nix) |
+| openSUSE Tumbleweed | [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)     |
+| Ubuntu ≥ 17.04      | [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)     |
