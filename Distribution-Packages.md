@@ -1,6 +1,6 @@
 | OS                  | Package|
 | ------------------- | ------ |
-| Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/)     |
+| Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/),  [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)    |
 | Debian ≥ 9          | [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)     |
 | Fedora ≥ 25         | [OBS](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)     |
 | Gentoo Linux        | [Overlay](https://github.com/csmk/frabjous/tree/master/net-im/dino) |
