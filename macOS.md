@@ -1,49 +1,41 @@
-**macOS is currently not supported**. This should change in the future. Until then, this page provides an (incomplete, unofficial) collection of information helping to get Dino running. Problems are to be expected.
+**macOS is currently not supported**. This should change in the future. Until then, this page provides an (unofficial) collection of information via [homebrew](https://brew.sh/) helping to get Dino running. Problems are to be expected.
 
-- Rename the plugin (PGP, OMEMO, ...) libraries from .dylib to .so
+## system-wide installation 
+Using homebrew formula by @denshub from [here](https://gist.github.com/denschub/2358c722d5d711022f99faac8f04c164):
 
-Homebrew formula (by @denshub from [here](https://gist.github.com/denschub/2358c722d5d711022f99faac8f04c164)):
-```rb
-class Dino < Formula
-  desc "Modern Jabber/XMPP Client using GTK+/Vala "
-  homepage "https://dino.im"
+```
+brew tap denschub/dino https://gist.github.com/2358c722d5d711022f99faac8f04c164.git
+brew install --HEAD dino
+```
 
-  ## TODO: This is not really a version, but a dummy that's not going to work.
-  # url "https://github.com/dino/dino/archive/0.0.tar.gz"
-  # sha256 "a951b50559671ab30e74304ddc66c943405c8ad1bcbe4d77bef647a081fd0dbb"
+To use dino with support for OMEMO, HTTP-Upload, and OpenPGP you need to rename the plugin (PGP, OMEMO, ...) libraries in the `build/plugin` folder from .dylib to .so.
 
-  head do
-    url "https://github.com/dino/dino.git"
-  end
+## local install
 
-  depends_on "adwaita-icon-theme"
-  depends_on "glib"
-  depends_on "glib-networking"
-  depends_on "gpgme"
-  depends_on "gtk+3"
-  depends_on "libgcrypt"
-  depends_on "libgee"
-  depends_on "libsoup"
-  depends_on "sqlite"
+Install dependencies:
+```
+brew install adwaita-icon-theme glib glib-networking gpgme gtk+3 libgcrypt libgee libsoup sqlite cmake gettext ninja vala
+```
 
-  depends_on "cmake" => :build
-  depends_on "gettext" => :build
-  depends_on "ninja" => :build
-  depends_on "vala" => :build
+Compile dino:
+```
+git clone https://github.com/dino/dino.git
+cd dino
+./configure
+make
+```
+(Run `make install` with admin rights to do a systemwide installation).
 
-  def install
-    mkdir "build" do
-      system "cmake", "..", *std_cmake_args
+Rename the plugin (PGP, OMEMO, ...) libraries from .dylib to .so:
+```
+cd build/plugins
+mv http-files.dylib http-files.so
+mv omemo.dylib omemo.so
+mv openpgp.dylib openpgp.so
+```
 
-      # We have to build with `-j1` or the build might fail. Currently,
-      # dependencies in the upstream project seem to be built out of order,
-      # so we can run into build failures...
-      system "make", "install", "-j1"
-    end
-  end
-
-  test do
-    system "#{bin}/dino", "-h"
-  end
-end
+Run dino:
+```
+cd folder/where/dino/is/located
+build/dino
 ```
