@@ -13,7 +13,7 @@ A dino package can be obtained from the following official distribution reposito
 | OS                  | Repository | Package name |
 | ------------------- | ------ | ------ |
 | Debian              | [buster (testing)](https://packages.debian.org/buster/dino-im), [sid (unstable)](https://packages.debian.org/sid/dino-im)    | `dino-im` |
-| Gentoo              | [net-im](https://packages.gentoo.org/packages/net-im/dino) | `dino` |
+| Gentoo              | [gentoo](https://packages.gentoo.org/packages/net-im/dino) | `net-im/dino` |
 | NixOS > 17.03       | [nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/instant-messengers/dino/default.nix) | `dino` | 
 | Ubuntu              | [bionic (18.04LTS)](https://packages.ubuntu.com/bionic/dino-im)     | `dino-im` |
 
