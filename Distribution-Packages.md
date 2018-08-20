@@ -23,4 +23,3 @@ Dino can also be installed from
 | OS                  | Repository |
 | ------------------- | ------ |
 | Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/)  |
-| Gentoo Linux        | [Chaoslab Overlay](https://gitlab.com/chaoslab/chaoslab-overlay/tree/master/net-im/dino) |
