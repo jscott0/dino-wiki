@@ -1,7 +1,7 @@
 **macOS is currently not supported**. This should change in the future. Until then, this page provides an (unofficial) collection of information via [homebrew](https://brew.sh/) helping to get Dino running. Problems are to be expected.
 
 ## system-wide installation 
-Using homebrew formula by @denshub from [here](https://gist.github.com/denschub/2358c722d5d711022f99faac8f04c164):
+Using homebrew formula by @denschub from [here](https://gist.github.com/denschub/2358c722d5d711022f99faac8f04c164):
 
 ```
 brew tap denschub/dino https://gist.github.com/2358c722d5d711022f99faac8f04c164.git
