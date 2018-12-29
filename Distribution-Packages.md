@@ -24,4 +24,4 @@ Dino can also be installed from
 | ------------------- | ------ |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/)  |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Gentoo_Logo_Vector.svg/986px-Gentoo_Logo_Vector.svg.png" height="16"/> Gentoo        | [Chaoslab Overlay](https://gitlab.com/chaoslab/chaoslab-overlay/tree/master/net-im/dino) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora        | [Copr](https://copr.fedorainfracloud.org/coprs/bowlofeggs/dino/) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora        | Copr [bowlofeggs/dino](https://copr.fedorainfracloud.org/coprs/bowlofeggs/dino/) |
