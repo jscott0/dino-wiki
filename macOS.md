@@ -14,7 +14,7 @@ To use dino with support for OMEMO, HTTP-Upload, and OpenPGP you need to rename 
 
 Install dependencies:
 ```
-brew install adwaita-icon-theme glib glib-networking gpgme gtk+3 libgcrypt libgee libsoup sqlite cmake gettext ninja vala
+brew install adwaita-icon-theme glib glib-networking gpgme gtk+3 libgcrypt libgee libsoup sqlite cmake gettext ninja vala libqrencode3
 ```
 
 Compile dino:
