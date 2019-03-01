@@ -17,6 +17,7 @@ A dino package can be obtained from the following official distribution reposito
 | <img src="https://cdn.rawgit.com/NixOS/nixos-artwork/master/logo/nix-snowflake.svg" height="16"/> NixOS ≥ 18.03 | `dino` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu ≥ 18.04 | `dino-im` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora | `dino` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Farm-Fresh_freebsd.png" height="16"/> FreeBSD | `net-im/dino` |
 
 ### Other sources
 Dino can also be installed from
