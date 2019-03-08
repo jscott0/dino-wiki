@@ -14,7 +14,14 @@ To use dino with support for OMEMO, HTTP-Upload, and OpenPGP you need to rename 
 
 Install dependencies:
 ```
-brew install adwaita-icon-theme glib glib-networking gpgme gtk+3 libgcrypt libgee libsoup sqlite cmake gettext ninja vala libqrencode3
+brew install adwaita-icon-theme glib glib-networking gpgme libgpg-error libgcrypt gtk+3 libgee libsoup sqlite cmake gettext ninja vala qrencode intltool
+
+# gettext is "keg-only", so you need to do this to fully install it
+brew link --force gettext
+echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.bash_profile
+echo 'export LDFLAGS="-L/usr/local/opt/gettext/lib"' >> ~/.bash_profile
+echo 'export CPPFLAGS="-I/usr/local/opt/gettext/include"' >> ~/.bash_profile
+. ~/.bash_profile
 ```
 
 Compile dino:
@@ -24,7 +31,6 @@ cd dino
 ./configure
 make
 ```
-(Run `make install` with admin rights to do a systemwide installation).
 
 Rename the plugin (PGP, OMEMO, ...) libraries from .dylib to .so:
 ```
@@ -39,3 +45,5 @@ Run dino:
 cd folder/where/dino/is/located
 build/dino
 ```
+
+Run `sudo make install` to do a systemwide installation.
