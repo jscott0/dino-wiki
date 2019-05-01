@@ -16,6 +16,11 @@ Install dependencies:
 ```
 brew install adwaita-icon-theme glib glib-networking gpgme libgpg-error libgcrypt gtk+3 libgee libsoup sqlite cmake gettext ninja vala qrencode
 
+# several of the libraries are misdetected by CMake on OS X
+# but this just includes; so long as they are "brew link"ed in place
+echo 'export CPATH="/usr/local/include:$CPATH"' >> ~/.bash_profile
+echo 'export LDFLAGS="-L/usr/local/lib"' >> ~/.bash_profile
+
 # gettext is "keg-only", so you need to do this to fully install it
 brew link --force gettext
 echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.bash_profile
