@@ -11,6 +11,7 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | [0049](https://xmpp.org/extensions/xep-0049.html) | Private XML Storage          | |
 | [0054](https://xmpp.org/extensions/xep-0054.html) | VCard                        | Only Avatars |
 | [0060](https://xmpp.org/extensions/xep-0060.html) | Pubsub                       | Partial |
+| [0065](https://xmpp.org/extensions/xep-0065.html) | SOCKS5 Bytestreams           | |
 | [0066](https://xmpp.org/extensions/xep-0066.html) | Out of Band Data             | |
 | [0077](https://xmpp.org/extensions/xep-0077.html) | In-Band Registration         | |
 | [0082](https://xmpp.org/extensions/xep-0082.html) | Date Time Profiles           | |
@@ -25,6 +26,7 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | [0199](https://xmpp.org/extensions/xep-0199.html) | Ping                         | |
 | [0203](https://xmpp.org/extensions/xep-0203.html) | Delayed Delivery             | |
 | [0234](https://xmpp.org/extensions/xep-0234.html) | Jingle File Transfer         | |
+| [0260](https://xmpp.org/extensions/xep-0260.html) | Jingle SOCKS5 Bytestreams    | |
 | [0261](https://xmpp.org/extensions/xep-0261.html) | Jingle In-Band Bytestreams Transport Method | |
 | [0280](https://xmpp.org/extensions/xep-0280.html) | Message Carbons              | |
 | [0313](https://xmpp.org/extensions/xep-0313.html) | Message Archive Management   | |
