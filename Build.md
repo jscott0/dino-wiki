@@ -1,6 +1,7 @@
 # Dependencies
 * C compiler
 * CMake
+* Emoji font (recommend)
 * gettext
 * GLib (≥ 2.38)
 * glib-networking
