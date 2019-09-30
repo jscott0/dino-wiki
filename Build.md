@@ -21,3 +21,8 @@ Information might be outdated or incomplete.
 ```
 sudo apt-get install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libnotify-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev
 ```
+
+### Fedora
+```
+sudo dnf install vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel
+```
