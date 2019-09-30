@@ -24,5 +24,5 @@ sudo apt-get install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libn
 
 ### Fedora
 ```
-sudo dnf install vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel
+sudo dnf install cmake vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel
 ```
