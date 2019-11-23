@@ -17,9 +17,10 @@
 
 ## Package names
 Information might be outdated or incomplete.
+
 ### Ubuntu
 ```
-sudo apt-get install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libnotify-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev gettext
+sudo apt install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libmirclient-dev libnotify-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev gettext
 ```
 
 ### Fedora
