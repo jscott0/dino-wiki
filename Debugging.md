@@ -6,7 +6,7 @@ gdb dino
 [Do whatever makes Dino crash]
 > bt // To obtain the stack trace
 ```
-To get traces of runtime criticals, use `gdb dino --g-fatal-warnings`.
+To get traces of runtime criticals, use `gdb --args dino --g-fatal-warnings`.
 
 # Debug output
 Additional output will be printed when setting the environment variable `G_MESSAGES_DEBUG`. Setting it to `all` will also print output from non-Dino components (Gtk, Glib, ...).
