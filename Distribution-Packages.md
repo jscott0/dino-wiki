@@ -1,5 +1,4 @@
-### Distribution repositories
-A dino package can be obtained from the following official distribution repositories
+Dino can be installed from the repositories of the following distributions:
 
 | OS                  | Package name |
 | ------------------- | ------ |
@@ -13,16 +12,11 @@ A dino package can be obtained from the following official distribution reposito
 | <img src="https://i.imgur.com/4VH9EgI.png" height="16"> Alpine Linux Edge | `dino` |
 
 ### Nightly builds
-The most recent development version can be found on openSUSE Build Service (OBS). A `dino` package can be found in repositories for the the following distributions
+The most recent development version for <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> Arch Linux, <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian ≥ 9, <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora ≥ 25, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OpenSUSE_Logo.svg/800px-OpenSUSE_Logo.svg.png" height="16"/> openSUSE ≥ 15.0, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu ≥ 17.04  can be found on openSUSE Build Service (OBS):
 
-* <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> [Arch Linux](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)
-* <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> [Debian ≥ 9](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)
-* <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> [Fedora ≥ 25](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)
-* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OpenSUSE_Logo.svg/800px-OpenSUSE_Logo.svg.png" height="16"/> [openSUSE ≥ 15.0](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)
-* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> [Ubuntu ≥ 17.04](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)
+[https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino](https://software.opensuse.org/download.html?project=network:messaging:xmpp:dino&package=dino)
 
-### Other sources
-Dino can also be installed from
+Other sources for nightly builds are:
 
 | OS                  | Repository |
 | ------------------- | ------ |
