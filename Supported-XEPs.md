@@ -32,7 +32,10 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | [0313](https://xmpp.org/extensions/xep-0313.html) | Message Archive Management   | |
 | [0333](https://xmpp.org/extensions/xep-0333.html) | Chat Markers                 | |
 | [0334](https://xmpp.org/extensions/xep-0334.html) | Message Processing Hints     | |
+| [0359](https://xmpp.org/extensions/xep-0359.html) | Unique and Stable Stanza IDs     | |
 | [0363](https://xmpp.org/extensions/xep-0363.html) | HTTP File Upload             | Both :0 and legacy namespace |
 | [0368](https://xmpp.org/extensions/xep-0368.html) | SRV records for XMPP over TLS| |
 | [0380](https://xmpp.org/extensions/xep-0380.html) | Explicit Message Encryption  | Sending only |
 | [0384](https://xmpp.org/extensions/xep-0384.html) | OMEMO Encryption             | |
+| [0391](https://xmpp.org/extensions/xep-0391.html) | Jingle Encrypted Transports  | |
+| [0396](https://xmpp.org/extensions/xep-0396.html) | Jingle Encrypted Transports - OMEMO | |
