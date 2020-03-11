@@ -4,18 +4,23 @@
 
 Install dependencies:
 ```
-brew install adwaita-icon-theme glib glib-networking gpgme libgpg-error libgcrypt gtk+3 libgee libsoup sqlite cmake gettext ninja vala qrencode
+brew install adwaita-icon-theme glib glib-networking gpgme icu4c libgpg-error libgcrypt gtk+3 libsignal-protocol-c libgee libsoup sqlite cmake gettext ninja vala qrencode
 
 # several of the libraries are misdetected by CMake on OS X
 # but this just includes; so long as they are "brew link"ed in place
 echo 'export CPATH="/usr/local/include:$CPATH"' >> ~/.bash_profile
 echo 'export LDFLAGS="-L/usr/local/lib $LDFLAGS"' >> ~/.bash_profile
 
-# gettext is "keg-only", so you need to do this to fully install it
+# gettext and icu4c are "keg-only", so you need to do this to fully install them
 brew link --force gettext
 echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> ~/.bash_profile
 echo 'export LDFLAGS="-L/usr/local/opt/gettext/lib"' >> ~/.bash_profile
+echo 'export LDFLAGS="-L/usr/local/opt/icu4c/lib"' >> ~/.bash_profile
 echo 'export CPPFLAGS="-I/usr/local/opt/gettext/include"' >> ~/.bash_profile
+echo 'export CPPFLAGS="-I/usr/local/opt/icu4c/include"' >> ~/.bash_profile
+echo 'export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig"' >> ~/.bash_profile
 . ~/.bash_profile
 ```
 
