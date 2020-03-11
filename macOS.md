@@ -1,14 +1,4 @@
-**macOS is currently not supported**. This should change in the future. Until then, this page provides an (unofficial) collection of information via [homebrew](https://brew.sh/) helping to get Dino running. Problems are to be expected.
-
-## System-wide Installation 
-Using homebrew formula by @denschub from [here](https://gist.github.com/denschub/2358c722d5d711022f99faac8f04c164):
-
-```
-brew tap denschub/dino https://gist.github.com/2358c722d5d711022f99faac8f04c164.git
-brew install --HEAD dino
-```
-
-To use dino with support for OMEMO, HTTP-Upload, and OpenPGP you need to rename the plugin (PGP, OMEMO, ...) libraries in the `build/plugin` folder from .dylib to .so.
+**macOS is currently not supported**. This should change in the future. Until then, this page provides an (unofficial) collection of information helping you to get Dino running. Problems are to be expected.
 
 ## Local Install
 
