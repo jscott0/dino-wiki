@@ -1,5 +1,7 @@
 **macOS is currently not supported**. This should change in the future. Until then, this page provides an (unofficial) collection of information helping you to get Dino running. Problems are to be expected.
 
+For virtualization of macOS purposes see [this](https://github.com/myspaghetti/macos-guest-virtualbox).
+
 ## Local Install
 
 Install dependencies:
