@@ -6,7 +6,7 @@ For virtualization of macOS purposes see [this](https://github.com/myspaghetti/m
 
 Install dependencies:
 ```
-brew install adwaita-icon-theme glib glib-networking gpgme icu4c libgpg-error libgcrypt gtk+3 libsignal-protocol-c libgee libsoup sqlite cmake gettext ninja vala qrencode
+brew install adwaita-icon-theme glib glib-networking gpgme icu4c libgpg-error libgcrypt gtk+3 libsignal-protocol-c libgee libsoup sqlite cmake gettext ninja vala qrencode libxml2
 
 # several of the libraries are misdetected by CMake on OS X
 # but this just includes; so long as they are "brew link"ed in place
