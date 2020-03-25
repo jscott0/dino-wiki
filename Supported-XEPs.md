@@ -18,6 +18,7 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | [0084](https://xmpp.org/extensions/xep-0084.html) | User Avatars                 | |
 | [0085](https://xmpp.org/extensions/xep-0085.html) | Chat State Notifications     | |
 | [0115](https://xmpp.org/extensions/xep-0115.html) | Entity Capabilities          | |
+| [0153](https://xmpp.org/extensions/xep-0153.html) | vCard-Based Avatars          | Download only |
 | [0163](https://xmpp.org/extensions/xep-0163.html) | Personal Eventing Protocol   | |
 | [0166](https://xmpp.org/extensions/xep-0166.html) | Jingle                       | |
 | [0184](https://xmpp.org/extensions/xep-0184.html) | Message Delivery Receipts    | |
