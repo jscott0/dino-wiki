@@ -1,6 +1,13 @@
-General notes:
-* If a string addresses the user, please translate it to an *informal* address.
+### Weblate
+Translations are managed on [weblate](https://hosted.weblate.org/engage/dino/).
 
-Translations are managed at [weblate](https://hosted.weblate.org/engage/dino/).
+### User addressing
+Some strings address the user ("you", "your", ...). How to address the user differs by language, but should be done consistently within a language:
+
+- French: vous, votre
+- German: du, dein
+- Swedish: du, din
+
+### Translation overview
 
 [![Translation status](https://hosted.weblate.org/widgets/dino/-/multi-auto.svg)](https://hosted.weblate.org/engage/dino/?utm_source=widget)
