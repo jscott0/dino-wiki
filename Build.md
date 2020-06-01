@@ -31,3 +31,8 @@ sudo apt install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libnotif
 ```
 sudo dnf install cmake vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel libsignal-protocol-c-devel
 ```
+
+### Arch Linux
+```
+sudo pacman -S cmake vala libgee gtk3 libgcrypt qrencode gdk-pixbuf2 glib-networking libsoup gpgme libsignal-protocol-c
+```
