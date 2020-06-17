@@ -7,6 +7,7 @@ Dino can be installed from the repositories of the following distributions:
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora ≥ 28 | `dino` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Farm-Fresh_freebsd.png" height="16"/> FreeBSD | `net-im/dino` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Gentoo_Logo_Vector.svg/986px-Gentoo_Logo_Vector.svg.png" height="16"/> Gentoo | `net-im/dino` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Guix_logo.svg/264px-Guix_logo.svg.png" height="16"/> Guix ≥ 0.14.0 | `dino` |
 | <img src="https://cdn.rawgit.com/NixOS/nixos-artwork/master/logo/nix-snowflake.svg" height="16"/> NixOS ≥ 18.03 | `dino` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu ≥ 18.04 | `dino-im` |
 | <img src="https://i.imgur.com/4VH9EgI.png" height="16"> Alpine Linux Edge | `dino` |
