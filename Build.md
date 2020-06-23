@@ -8,12 +8,12 @@
 * GTK (≥ 3.22)
 * GPGME (For the OpenPGP plugin)
 * libgee-0.8 (≥ 0.10)
-* libsignal-protocol-c (= 2.3.2, for the OMEMO plugin)
+* libsignal-protocol-c (≥ 2.3.2, for the OMEMO plugin)
 * libgcrypt (For the OMEMO plugin)
 * libqrencode3 (For the OMEMO plugin)
 * libsoup (For the HTTP files plugin)
 * ninja(-build) (recommend)
-* SQLite3
+* SQLite3 (≥ 3.24)
 * valac (≥ 0.34)
 
 ## libsignal-protocol-c
