@@ -1,5 +1,3 @@
-This listing might be outdated. For an up-to-date list see [here](https://github.com/dino/dino/tree/master/xmpp-vala/src/module/xep).
-
 |                                                   | XEP                          | Comment|
 | ------------------------------------------------- | ---------------------------- | ------ |
 | [0004](https://xmpp.org/extensions/xep-0004.html) | Data Forms                   | |
@@ -40,3 +38,4 @@ This listing might be outdated. For an up-to-date list see [here](https://github
 | [0384](https://xmpp.org/extensions/xep-0384.html) | OMEMO Encryption             | |
 | [0391](https://xmpp.org/extensions/xep-0391.html) | Jingle Encrypted Transports  | |
 | [0396](https://xmpp.org/extensions/xep-0396.html) | Jingle Encrypted Transports - OMEMO | |
+| [0410](https://xmpp.org/extensions/xep-0410.html) | MUC Self-Ping | |
