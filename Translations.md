@@ -7,6 +7,7 @@ Some strings address the user ("you", "your", ...). How to address the user diff
 - French: vous, votre
 - German: du, dein
 - Swedish: du, din
+- Polish: ty, twój
 
 ### Translation overview
 
