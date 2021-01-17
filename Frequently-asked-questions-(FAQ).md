@@ -16,6 +16,10 @@ If you want the group chat to become a private group, you should configure it as
 
 A public channel should be configured as: Persistent: `Yes`, Publicly searchable: `Yes`, Members only: `No`, Permission to view JIDs: `Moderators only`
 
+# How to add someone to my contact list?
+
+Click on the _+_ button on the top left and select _Start conversation_. The list of contacts you see in the appearing dialog is also sometimes referred to as your roster. You can add someone to your contact list with the _+_ button at the bottom of the list and remove someone with the _-_ button.
+
 # How to change the font size in Dino?
 
 Dino adheres to the font size defined in the global GTK settings, so it could be changed there.
