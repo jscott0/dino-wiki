@@ -10,7 +10,7 @@
 * libgee-0.8 (≥ 0.10)
 * libsignal-protocol-c (≥ 2.3.2, for the OMEMO plugin)
 * libgcrypt (For the OMEMO plugin)
-* libgspell (For spellcheck support)
+* libgspell
 * libqrencode3 (For the OMEMO plugin)
 * libsoup (For the HTTP files plugin)
 * ninja(-build) (recommend)
@@ -30,10 +30,10 @@ sudo apt install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libnotif
 
 ### Fedora
 ```
-sudo dnf install cmake vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel libsignal-protocol-c-devel
+sudo dnf install cmake vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel libsignal-protocol-c-devel gspell-devel
 ```
 
 ### Arch Linux
 ```
-sudo pacman -S cmake vala libgee gtk3 libgcrypt qrencode gdk-pixbuf2 glib-networking libsoup gpgme libsignal-protocol-c
+sudo pacman -S cmake vala libgee gtk3 libgcrypt qrencode gdk-pixbuf2 glib-networking libsoup gpgme libsignal-protocol-c gspell
 ```
