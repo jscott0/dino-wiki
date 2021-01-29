@@ -14,7 +14,7 @@ The following instructions expect you to use a Terminal emulator, for example th
    See https://brew.sh for updated installation instructions of homebrew.
 3. Make sure all the required dependencies are installed by running
    ```sh
-   $ brew install adwaita-icon-theme glib glib-networking gpgme icu4c libgpg-error libgcrypt gtk+3 libsignal-protocol-c libgee libsoup sqlite cmake gettext ninja vala qrencode libxml2
+   $ brew install adwaita-icon-theme glib glib-networking gpgme icu4c libgpg-error libgcrypt gtk+3 libsignal-protocol-c libgee libsoup sqlite cmake gettext ninja vala qrencode libxml2 gspell
    ```
 4. Download the source code from the git in a directory of your choice (use `cd` to change the current working directory)
    ```sh
