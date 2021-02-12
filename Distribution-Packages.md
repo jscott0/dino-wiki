@@ -26,3 +26,9 @@ Other sources for nightly builds are:
 | ------------------- | ------ |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/)  |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Gentoo_Logo_Vector.svg/986px-Gentoo_Logo_Vector.svg.png" height="16"/> Gentoo        | [Chaoslab Overlay](https://gitlab.com/chaoslab/chaoslab-overlay/tree/master/net-im/dino) |
+
+### Alternative ways to get Dino
+
+#### Flatpak
+
+There is work on [getting a flatpak version published](https://github.com/dino/dino/issues/453), though it is blocked on account on flatpak missing certain required features for Dino to offer the same experience across the board.
