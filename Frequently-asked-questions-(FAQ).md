@@ -32,3 +32,9 @@ GDK_DPI_SCALE=1.5 dino
 # How to use Dino over Tor?
 
 See the [related wiki page](https://github.com/dino/dino/wiki/Tor).
+
+# How to run a second Dino instance
+
+```
+env DBUS_SESSION_BUS_ADDRESS=  XDG_DATA_HOME=/some/path dino
+```
