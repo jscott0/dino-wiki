@@ -23,17 +23,17 @@ If build complains about missing or incompatible libsignal-protocol-c and it is 
 ## Package names
 Information might be outdated or incomplete.
 
-### Ubuntu
+### Debian / Ubuntu
 ```
-sudo apt install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libnotify-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev gettext libsignal-protocol-c-dev libgspell-1-dev
+sudo apt install cmake valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev libgspell-1-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libwebrtc-audio-processing-dev libsrtp2-dev libnice-dev glib-networking gstreamer1.0-plugins-good gstreamer1.0-gtk3
 ```
 
 ### Fedora
 ```
-sudo dnf install cmake vala libgee-devel gtk3-devel libgcrypt-devel qrencode-devel gdk-pixbuf2-devel libsoup-devel gpgme-devel libsignal-protocol-c-devel gspell-devel
+sudo dnf install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gspell-1)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)"
 ```
 
 ### Arch Linux
 ```
-sudo pacman -S cmake vala libgee gtk3 libgcrypt qrencode gdk-pixbuf2 glib-networking libsoup gpgme libsignal-protocol-c gspell
+sudo pacman -S cmake vala ninja glib2 glib-networking gtk3 gpgme libgee>=0.10 libgcrypt libsoup sqlite qrencode gspell gstreamer gst-plugins-base gst-plugins-good gst-plugin-gtk webrtc-audio-processing libnice libsrtp
 ```
