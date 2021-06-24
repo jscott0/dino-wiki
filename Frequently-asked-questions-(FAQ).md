@@ -41,7 +41,7 @@ env DBUS_SESSION_BUS_ADDRESS=  XDG_DATA_HOME="${dino_folder_path_for_this_instan
 
 # How to back up or move the data and configuration?
 
-Dino's data and configuration is contained in the `./local/share/dino` folder, so this is the one to save or move.
+Dino's data and configuration is contained in the `~/.local/share/dino` folder, so this is the one to save or move.
 
 In order to be able to read past OMEMO-encrypted messages contained in the moved database, Dino must not be running while saving the folder and the XMPP account must not be used before the data is restored and used by Dino.
 
