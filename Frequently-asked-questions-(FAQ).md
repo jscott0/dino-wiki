@@ -39,10 +39,12 @@ See the [related wiki page](https://github.com/dino/dino/wiki/Tor).
 env DBUS_SESSION_BUS_ADDRESS=  XDG_DATA_HOME="${dino_folder_path_for_this_instance}" dino
 ```
 
-# How to back up or move the data and configuration?
+# How to move the data and configuration?
 
-Dino's data and configuration is contained in the `~/.local/share/dino` folder, so this is the one to save or move.
+**Warning: Wrongly copying Dino's data around leads to OMEMO not working anymore**
 
-In order to be able to read past OMEMO-encrypted messages contained in the moved database, Dino must not be running while saving the folder and the XMPP account must not be used before the data is restored and used by Dino.
+Dino's data contains Dino's OMEMO keys. An OMEMO key can only be used by *one* client. The per-client key changes with every exchanged message. That means
+- You can't use the same OMEMO key on multiple devices. The protocol doesn't work that way. It *will* break.
+- You shouldn't backup and restore an old state of the OMEMO keys, since the keys continuously change. It won't work.
 
-This is because new OMEMO session [keys are created after every message exchange](https://github.com/dino/dino/issues/850#issuecomment-692272324).
+What you can do is to **move** Dino from installation A to installation B. Dino's data and configuration is contained in the `~/.local/share/dino` folder. Quit Dino before moving the folder.
