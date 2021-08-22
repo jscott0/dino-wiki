@@ -53,3 +53,11 @@ Connection establishment
 Audio/video processing
 * GStreamer
 * webrtc-audio-processing
+
+***
+
+Basic instructions:
+* ./configure
+* make
+* sudo make install
+* sudo ldconfig
