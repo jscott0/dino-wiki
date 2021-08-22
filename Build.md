@@ -56,8 +56,8 @@ Audio/video processing
 
 ***
 
-Basic instructions:
-* ./configure
-* make
-* sudo make install
-* sudo ldconfig
+### Basic instructions:
+* `./configure`
+* `make`
+* `sudo make install`
+* `sudo ldconfig`
