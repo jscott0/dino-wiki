@@ -7,7 +7,7 @@ sudo apt install cmake ninja-build valac libgee-0.8-dev libsqlite3-dev libgtk-3-
 
 ### Fedora
 ```
-sudo dnf install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gspell-1)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)"
+sudo dnf install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala libsignal-protocol-c-devel "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gspell-1)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)"
 ```
 
 ### OpenSUSE Tumbleweed
