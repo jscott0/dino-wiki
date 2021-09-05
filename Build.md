@@ -2,7 +2,7 @@
 
 ### Debian / Ubuntu
 ```
-sudo apt install cmake ninja-build valac libgee-0.8-dev libsqlite3-dev libgtk-3-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev libgspell-1-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libwebrtc-audio-processing-dev libsrtp2-dev libnice-dev glib-networking gstreamer1.0-plugins-good gstreamer1.0-gtk3 libsignal-protocol-c-dev
+sudo apt install cmake ninja-build valac gettext libgee-0.8-dev libsqlite3-dev libgtk-3-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev libgspell-1-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libwebrtc-audio-processing-dev libsrtp2-dev libnice-dev glib-networking gstreamer1.0-plugins-good gstreamer1.0-gtk3 libsignal-protocol-c-dev
 ```
 
 ### Fedora
