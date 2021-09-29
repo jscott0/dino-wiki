@@ -3,9 +3,9 @@ Dino can be installed from the repositories of the following distributions:
 | Linux               | Package name |
 | ------------------- | ------ |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> Arch Linux          | `dino`  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian | `dino-im` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian | `dino-im`, [MPR](https://mpr.hunterwittenborn.com/packages/dino/) |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora | `dino` |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu | `dino-im` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu | `dino-im`, [MPR](https://mpr.hunterwittenborn.com/packages/dino/) |
 | <img src="https://i.imgur.com/4VH9EgI.png" height="16"> Alpine Linux | `dino` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Gentoo_Logo_Vector.svg/986px-Gentoo_Logo_Vector.svg.png" height="16"/> Gentoo | `net-im/dino` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Guix_logo.svg/264px-Guix_logo.svg.png" height="16"/> Guix | `dino` |
