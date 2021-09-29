@@ -27,3 +27,4 @@ Other sources for nightly builds are:
 | OS                  | Repository |
 | ------------------- | ------ |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> Arch Linux          | [AUR](https://aur.archlinux.org/packages/dino-git/)  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian / <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu | [MPR](https://mpr.hunterwittenborn.com/packages/dino-git/) |
