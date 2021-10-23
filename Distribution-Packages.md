@@ -15,7 +15,7 @@ Dino can be installed from the repositories of the following distributions:
 | BSD                 | Package name |
 | ------------------- | ------ |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Farm-Fresh_freebsd.png" height="16"/> FreeBSD | `net-im/dino` |
-| <img src="https://www.openbsd.org/art/puffy/puf100X86.gif" height="16"/> OpenBSD | `net-im/dino` |
+| <img src="https://www.openbsd.org/art/puffy/puf100X86.gif" height="16"/> OpenBSD | `net/dino` |
 
 ### Nightly builds
 The most recent development version for <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" height="16"/> Arch Linux, <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian, <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg" height="16"/> Fedora, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OpenSUSE_Logo.svg/800px-OpenSUSE_Logo.svg.png" height="16"/> openSUSE and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu can be found on openSUSE Build Service (OBS):
