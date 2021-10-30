@@ -1,3 +1,5 @@
+### Release builds
+
 Dino can be installed from the repositories of the following distributions:
 
 | OS               | Package name |
@@ -18,7 +20,7 @@ Dino can be installed from the repositories of the following distributions:
 | <img src="https://www.openbsd.org/art/puffy/puf100X86.gif" height="16"/> OpenBSD | `net/dino` |
 
 
-Other sources for stable builds are:
+Other sources for release builds are:
 
 | OS                  | Repository |
 | ------------------- | ------ |
