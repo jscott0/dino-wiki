@@ -48,3 +48,11 @@ Dino's data contains Dino's OMEMO keys. An OMEMO key can only be used by *one* c
 - You shouldn't backup and restore an old state of the OMEMO keys, since the keys continuously change. It won't work.
 
 What you can do is to **move** Dino from installation A to installation B. Dino's data and configuration is contained in the `~/.local/share/dino` folder. Quit Dino before moving the folder.
+
+# Is it possible to hide Dino and show an icon in the system tray?
+
+No, but it's planned. It will be probably realised by directly implementing the StatusNotifierItem D-Bus interface. Pull requests are welcome!
+
+# Is it possible to enable OMEMO by default?
+
+No, but we understand that improvements in that area are needed.
