@@ -56,3 +56,7 @@ No, but it's planned. It will be probably realised by directly implementing the 
 # Is it possible to enable OMEMO by default?
 
 No, but we understand that improvements in that area are needed.
+
+# Can you delete chat history?
+
+There is no such feature in Dino, but you can delete messages directly in the SQLite database `~/.local/share/dino/dino.db`. Just be aware that the messages could be redownloaded if they are still stored on the server.
