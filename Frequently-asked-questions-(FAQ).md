@@ -6,15 +6,14 @@ Click on the _+_ button on the top left and select _Join channel_. After clickin
 
 The room identifier can be freely chosen, but it must not exist yet and must not contain spaces (hyphens or underscores are fine). The domain name that is used for rooms (also called <abbr title="Multi-User Chat">MUC</abbr>) depends on your server provider. Often, it can be found on the provider's website.
 
-Once created, the room can be configured via the ☰ / ⚙ button on the top right.
+Once created, the room can be configured via the ☰ / ⚙ button on the top right. You can configure it to be a private group or a public channel by setting the following values:
 
-## Configuring a private group
-
-If you want the group chat to become a private group, you should configure it as: Persistent: `Yes`, Publicly searchable: `No`,  Members only: `Yes`, "Permission to view JIDs: `Anyone`
-
-## Configuring a public channel
-
-A public channel should be configured as: Persistent: `Yes`, Publicly searchable: `Yes`, Members only: `No`, Permission to view JIDs: `Moderators only`
+| Setting name | Private Group | Public Channel |
+|--------------|---------------|----------------|
+| Persistent   | Yes           | Yes            |
+| Publicly searchable | No | Yes |
+| Members only | Yes | No |
+| Permission to view JIDs | Anyone | Moderators only |
 
 # How to add someone to my contact list?
 
@@ -56,7 +55,3 @@ No, but it's planned. It will be probably realised by directly implementing the 
 # Is it possible to enable OMEMO by default?
 
 No, but we understand that improvements in that area are needed.
-
-# Can you delete chat history?
-
-There is no such feature in Dino, but you can delete messages directly in the SQLite database `~/.local/share/dino/dino.db`. Just be aware that the messages could be redownloaded if they are still stored on the server.
