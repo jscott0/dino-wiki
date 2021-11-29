@@ -30,12 +30,9 @@ The following instructions expect you to use a Terminal emulator, for example th
    ```
 6. Fix the filename of plugins
    ```sh
-   $ (cd build/plugins
-      mv http-files.dylib http-files.so
-      mv omemo.dylib omemo.so
-      mv openpgp.dylib openpgp.so
-      mv ice.dylib ice.so
-      mv rtp.dylib rtp.so)
+   $ zsh -e -x -c 'for plugin in build/plugins/*.dylib;
+         do mv ${plugin} ${plugin%.dylib}.so};
+       done'
    ```
 
 You are done. Start dino by typing `./build/dino`. If you want to update to the latest version, run `git pull` and redo steps 5 and 6.
