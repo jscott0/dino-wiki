@@ -31,7 +31,7 @@ The following instructions expect you to use a Terminal emulator, for example th
 6. Fix the filename of plugins
    ```sh
    $ zsh -e -x -c 'for plugin in build/plugins/*.dylib;
-         do mv ${plugin} ${plugin%.dylib}.so};
+         do mv ${plugin} ${plugin%.dylib}.so;
        done'
    ```
 
