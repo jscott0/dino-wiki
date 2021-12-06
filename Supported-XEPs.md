@@ -29,6 +29,7 @@
 | [0261](https://xmpp.org/extensions/xep-0261.html) | Jingle In-Band Bytestreams Transport Method | |
 | [0280](https://xmpp.org/extensions/xep-0280.html) | Message Carbons              | |
 | [0313](https://xmpp.org/extensions/xep-0313.html) | Message Archive Management   | Not implemented for MUC rooms |
+| [0320](https://xmpp.org/extensions/xep-0320.html) | https://xmpp.org/extensions/xep-0320.html | |
 | [0333](https://xmpp.org/extensions/xep-0333.html) | Chat Markers                 | |
 | [0334](https://xmpp.org/extensions/xep-0334.html) | Message Processing Hints     | |
 | [0359](https://xmpp.org/extensions/xep-0359.html) | Unique and Stable Stanza IDs     | |
