@@ -56,7 +56,7 @@ No, but it's planned. It will be probably realised by directly implementing the 
 
 No, but we understand that improvements in that area are needed.
 
-# How can I set a dark theme?
+# How to set a dark theme?
 
 Add the following entry to `~/.config/gtk-3.0/settings.ini`:
 
