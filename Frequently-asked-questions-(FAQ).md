@@ -55,3 +55,12 @@ No, but it's planned. It will be probably realised by directly implementing the 
 # Is it possible to enable OMEMO by default?
 
 No, but we understand that improvements in that area are needed.
+
+# How can I set a dark theme?
+
+Add the following entry to `~/.config/gtk-3.0/settings.ini`:
+
+```ini
+[Settings]
+gtk-application-prefer-dark-theme = true
+```
