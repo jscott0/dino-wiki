@@ -2,22 +2,22 @@
 
 ### Debian / Ubuntu
 ```
-sudo apt install cmake ninja-build valac gettext libgee-0.8-dev libsqlite3-dev libgtk-3-dev libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev libgspell-1-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libwebrtc-audio-processing-dev libsrtp2-dev libnice-dev glib-networking gstreamer1.0-plugins-good gstreamer1.0-gtk3 libsignal-protocol-c-dev
+sudo apt install cmake ninja-build valac gettext libgee-0.8-dev libsqlite3-dev libgtk-4-dev libadwaita-1-0 libgpgme-dev libsoup2.4-dev libgcrypt20-dev libqrencode-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libwebrtc-audio-processing-dev libsrtp2-dev libnice-dev glib-networking gstreamer1.0-plugins-good libsignal-protocol-c-dev
 ```
 
 ### Fedora
 ```
-sudo dnf install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala libsignal-protocol-c-devel "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gspell-1)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)"
+sudo dnf install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala libsignal-protocol-c-devel "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)"
 ```
 
 ### OpenSUSE Tumbleweed
 ```
-sudo zypper install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gspell-1)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)" openssl-devel libsignal-protocol-c-devel
+sudo zypper install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pkgconfig vala "pkgconfig(gee-0.8)" "pkgconfig(gio-2.0)" "pkgconfig(glib-2.0)" "pkgconfig(gthread-2.0)" "pkgconfig(gtk+-3.0)" "pkgconfig(libsoup-2.4)" "pkgconfig(sqlite3)" "pkgconfig(libqrencode)" "pkgconfig(gstreamer-1.0)" "pkgconfig(gstreamer-app-1.0)" "pkgconfig(gstreamer-audio-1.0)" "pkgconfig(gstreamer-rtp-1.0)" "pkgconfig(gstreamer-video-1.0)" "pkgconfig(nice)" "pkgconfig(libsrtp2)" "pkgconfig(webrtc-audio-processing)" openssl-devel libsignal-protocol-c-devel
 ```
 
 ### Arch Linux
 ```
-sudo pacman -S cmake vala ninja glib2 glib-networking gtk3 gtk4 gpgme libgee>=0.10 libgcrypt libsoup sqlite qrencode gspell gstreamer gst-plugins-base gst-plugins-good gst-plugin-gtk webrtc-audio-processing libnice libsrtp libsignal-protocol-c
+sudo pacman -S cmake vala ninja glib2 glib-networking gtk4 gpgme libgee>=0.10 libgcrypt libsoup sqlite qrencode gstreamer gst-plugins-base gst-plugins-good webrtc-audio-processing libnice libsrtp libsignal-protocol-c
 ```
 
 # libsignal-protocol-c
@@ -31,9 +31,8 @@ Basics
 * Emoji font (recommend)
 * gettext
 * GLib (≥ 2.38)
-* GTK (≥ 3.22)
+* GTK (≥ 4)
 * libgee-0.8 (≥ 0.10)
-* libgspell
 * libqrencode3 (For the OMEMO plugin)
 * ninja(-build) (recommend)
 * SQLite3 (≥ 3.24)
