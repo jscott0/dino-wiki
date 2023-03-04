@@ -17,7 +17,7 @@ sudo zypper install cmake gcc-c++ gpgme-devel libnotify-devel libgcrypt-devel pk
 
 ### Arch Linux
 ```
-sudo pacman -S cmake vala ninja glib2 glib-networking gtk4 gpgme libgee>=0.10 libgcrypt libsoup sqlite qrencode gstreamer gst-plugins-base gst-plugins-good webrtc-audio-processing libnice libsrtp libsignal-protocol-c
+sudo pacman -S cmake vala ninja glib2 glib-networking gtk4 libadwaita gpgme libgee>=0.10 libgcrypt libsoup sqlite qrencode gstreamer gst-plugins-base gst-plugins-good webrtc-audio-processing libnice libsrtp libsignal-protocol-c
 ```
 
 # libsignal-protocol-c
