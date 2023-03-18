@@ -22,6 +22,7 @@
 [0166](https://xmpp.org/extensions/xep-0166.html)|Jingle|partial||
 [0167](https://xmpp.org/extensions/xep-0167.html)|Jingle RTP Sessions|partial||
 [0176](https://xmpp.org/extensions/xep-0176.html)|Jingle ICE-UDP Transport Method|partial||
+[0177](https://xmpp.org/extensions/xep-0177.html)|Jingle Raw UDP Transport Method|complete||
 [0184](https://xmpp.org/extensions/xep-0184.html)|Message Delivery Receipts|complete||
 [0191](https://xmpp.org/extensions/xep-0191.html)|Blocking Command|complete||
 [0198](https://xmpp.org/extensions/xep-0198.html)|Stream Management|complete||
@@ -35,12 +36,14 @@
 [0249](https://xmpp.org/extensions/xep-0249.html)|Direct MUC Invitations|partial|No support for sending|
 [0260](https://xmpp.org/extensions/xep-0260.html)|Jingle SOCKS5 Bytestreams Transport Method|complete||
 [0261](https://xmpp.org/extensions/xep-0261.html)|Jingle In-Band Bytestreams Transport Method|complete||
+[0272](https://xmpp.org/extensions/xep-0272.html)|Multiparty Jingle (Muji)|partial||
 [0280](https://xmpp.org/extensions/xep-0280.html)|Message Carbons|complete||
 [0293](https://xmpp.org/extensions/xep-0293.html)|Jingle RTP Feedback Negotiation|partial||
 [0294](https://xmpp.org/extensions/xep-0294.html)|Jingle RTP Header Extensions Negotiation|partial||
 [0297](https://xmpp.org/extensions/xep-0297.html)|Stanza Forwarding|complete|For use with XEP-0280|
+[0298](https://xmpp.org/extensions/xep-0298.html)|Delivering Conference Information to Jingle Participants (Coin)|partial||
 [0308](https://xmpp.org/extensions/xep-0308.html)|Last Message Correction|complete||
-[0313](https://xmpp.org/extensions/xep-0313.html)|Message Archive Management|partial|Not for MUCs|
+[0313](https://xmpp.org/extensions/xep-0313.html)|Message Archive Management|partial||
 [0320](https://xmpp.org/extensions/xep-0320.html)|Use of DTLS-SRTP in Jingle Sessions|complete||
 [0333](https://xmpp.org/extensions/xep-0333.html)|Chat Markers|complete||
 [0334](https://xmpp.org/extensions/xep-0334.html)|Message Processing Hints|partial||
@@ -51,9 +54,13 @@
 [0380](https://xmpp.org/extensions/xep-0380.html)|Explicit Message Encryption|partial|Only for outgoing messages|
 [0384](https://xmpp.org/extensions/xep-0384.html)|OMEMO Encryption|complete||
 [0391](https://xmpp.org/extensions/xep-0391.html)|Jingle Encrypted Transports|partial||
+[0392](https://xmpp.org/extensions/xep-0392.html)|Consistent Color Generation|complete||
 [0393](https://xmpp.org/extensions/xep-0393.html)|Message Styling|partial||
 [0396](https://xmpp.org/extensions/xep-0396.html)|Jingle Encrypted Transports - OMEMO|complete||
 [0398](https://xmpp.org/extensions/xep-0398.html)|User Avatar to vCard-Based Avatars Conversion|complete||
 [0402](https://xmpp.org/extensions/xep-0402.html)|PEP Native Bookmarks|complete||
 [0410](https://xmpp.org/extensions/xep-0410.html)|MUC Self-Ping (Schrödinger's Chat)|complete||
+[0421](https://xmpp.org/extensions/xep-0421.html)|Anonymous unique occupant identifiers for MUCs|complete||
+[0444](https://xmpp.org/extensions/xep-0444.html)|Message Reactions|complete||
 [0454](https://xmpp.org/extensions/xep-0454.html)|OMEMO Media sharing|partial|No support for embedded thumbnails|
+[0461](https://xmpp.org/extensions/xep-0461.html)|Message Replies|complete||
