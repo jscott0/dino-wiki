@@ -58,7 +58,7 @@ No, but we understand that improvements in that area are needed.
 
 # How to set a dark theme?
 
-If you're using Dino 0.4 or earlier, do
+If you're using Dino 0.4 or later, do
 
 ```bash
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
