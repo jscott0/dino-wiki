@@ -58,7 +58,13 @@ No, but we understand that improvements in that area are needed.
 
 # How to set a dark theme?
 
-Add the following entry to `~/.config/gtk-3.0/settings.ini`:
+If you're using Dino 0.4 or earlier, do
+
+```bash
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+```
+
+If you're using Dino 0.3 or earlier, add the following entry to `~/.config/gtk-3.0/settings.ini`:
 
 ```ini
 [Settings]
