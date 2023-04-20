@@ -1,3 +1,5 @@
+<a href='https://flathub.org/apps/details/im.dino.Dino'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+
 ### Release builds
 
 Dino can be installed from the repositories of the following distributions:
