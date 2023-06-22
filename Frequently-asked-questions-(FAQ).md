@@ -15,6 +15,14 @@ Once created, the room can be configured via the ☰ / ⚙ button on the top rig
 | Members only | Yes | No |
 | Permission to view JIDs | Anyone | Moderators only |
 
+# How to change the nickname after having joined a room?
+
+Send the following message to the room where you replace `[nickname]` with your desired nickname:
+
+```
+/nick [nickname]
+```
+
 # How to add someone to my contact list?
 
 Click on the _+_ button on the top left and select _Start conversation_. The list of contacts you see in the appearing dialog is also sometimes referred to as your roster. You can add someone to your contact list with the _+_ button at the bottom of the list and remove someone with the _-_ button.
