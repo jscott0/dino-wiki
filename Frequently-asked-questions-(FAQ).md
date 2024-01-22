@@ -66,11 +66,12 @@ No, but we understand that improvements in that area are needed.
 
 # How to set a dark theme?
 
-Prefix the command to launch Dino, e.g. in the menu editor, as follows:
+Prefix the command to launch Dino, `dino` in this example, as follows:
 ```bash
 GTK_THEME=Adwaita-dark dino
 ```
 
+You would typically do this via the menu editor or directly in the `.desktop` file for Dino.
 This will apply the dark theme to Dino only and should work for any Dino and GTK version.
 
 If you're using Dino 0.4 or later and GTK4 earlier than 4.11.4, you can execute the following command to apply the dark theme system-wide:
