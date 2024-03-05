@@ -23,6 +23,14 @@ Send the following message to the room where you replace `[nickname]` with your 
 /nick [nickname]
 ```
 
+# Which slash commands are supported?
+
+Currently, there's no easily readable documentation for the commands that start with `/`.
+They have to be looked up in the source code.
+
+They can be found in the method for sending text in the chat input controller class.
+For easier reference in case the code changes, [this is a link to the code at the time of writing this FAQ entry](https://github.com/dino/dino/blob/bf9f401743eb5bd9b2de2bcac56576a6454b290c/main/src/ui/chat_input/chat_input_controller.vala#L146) and [this is a link to the current version of the code](https://github.com/dino/dino/blob/master/main/src/ui/chat_input/chat_input_controller.vala#L146).
+
 # How to add someone to my contact list?
 
 Click on the _+_ button on the top left and select _Start conversation_. The list of contacts you see in the appearing dialog is also sometimes referred to as your roster. You can add someone to your contact list with the _+_ button at the bottom of the list and remove someone with the _-_ button.
