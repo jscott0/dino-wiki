@@ -44,6 +44,32 @@ To scale the fonts only for Dino, the `GDK_DPI_SCALE` environment variable can b
 GDK_DPI_SCALE=1.5 dino
 ```
 
+Another, more flexible solution in Dino 0.4 or later is to create or edit the file `~/.config/gtk-4.0/gtk.css`, or `~/.var/app/im.dino.Dino/config/gtk-4.0/gtk.css` in the Flatpak version, like that:
+```css
+@import 'colors.css';
+window.dino-main {
+  font-size: 18px;
+}
+
+window.dino-main .dino-conversation {
+  font-size: 25px;
+}
+```
+
+Note that this allows to adapt many other aspects of the design. For example, the following adapts the message spacing:
+```css
+@import 'colors.css';
+window.dino-main .dino-conversation .message-box {
+    padding: 3px 15px 3px 15px;
+}
+window.dino-main .dino-conversation .has-skeleton {
+    margin-top: 10px;
+}
+window.dino-main .dino-conversation .message-box:not(.has-skeleton) {
+    padding-left: 58px;
+}
+```
+
 # How to use Dino over Tor?
 
 See the [related wiki page](https://github.com/dino/dino/wiki/Tor).
