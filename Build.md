@@ -27,11 +27,13 @@ If build complains about missing or incompatible libsignal-protocol-c and it is 
 
 Basics
 * C compiler
+* Adwaita
 * CMake
 * Emoji font (recommend)
 * gettext
 * GLib (≥ 2.38)
 * GTK (≥ 4)
+* ICU
 * libgee-0.8 (≥ 0.10)
 * libqrencode3 (For the OMEMO plugin)
 * ninja(-build) (recommend)
