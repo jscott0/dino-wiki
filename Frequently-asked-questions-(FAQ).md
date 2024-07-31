@@ -94,10 +94,6 @@ What you can do is to **move** Dino from installation A to installation B. Dino'
 
 No, but it's planned. It will be probably realised by directly implementing the StatusNotifierItem D-Bus interface. Pull requests are welcome!
 
-# Is it possible to enable OMEMO by default?
-
-No, but we understand that improvements in that area are needed.
-
 # How to set a dark theme?
 
 Prefix the command to launch Dino, `dino` in this example, as follows:
